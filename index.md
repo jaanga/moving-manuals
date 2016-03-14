@@ -1,5 +1,5 @@
-﻿<span style=display:none; >[You are now in a GitHub source code view - click this link to view the home page]( http://jaanga.github.io/demo/mm/index.html "View file as a web page." ) </span>
-<input type=button onclick=window.location.href='https://github.com/jaanga/jaanga.github.io/tree/master/demo/mm/'; 
+﻿<span style=display:none; >[You are now in a GitHub source code view - click this link to view the home page]( http://jaanga.github.io/moving-manuals/index.html "View file as a web page." ) </span>
+<input type=button onclick=window.location.href='https://github.com/jaanga/moving-manuals/'; 
 value='You are now in the home page view - Click this button to view the read me file and the source code' >
 
 [Moving Manuals]( index.html )
@@ -16,7 +16,7 @@ Each of the apps supports the following:
 * Pan = three fingers / right mouse
 * Reset = click the on the title 
 
-See also: [Read Me]( http://jaanga.github.io/demo/mm/readme-reader.html )
+See also: [Read Me]( http://jaanga.github.io/moving-manuals/readme-reader.html )
 
 
 <iframe src='kallax-nxn/index.html'  ></iframe>
