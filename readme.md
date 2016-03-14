@@ -1,8 +1,8 @@
-﻿<span style=display:none; >[You are now in a GitHub source code view - click this link to view the home page]( http://jaanga.github.io/demo/mm/index.html "View file as a web page." ) </span>
-<input type=button onclick=window.location.href='https://github.com/jaanga/jaanga.github.io/tree/master/demo/mm/'; 
+﻿<span style=display:none; >[You are now in a GitHub source code view - click this link to view the home page]( http://jaanga.github.io/moving-manuals/index.html "View file as a web page." ) </span>
+<input type=button onclick=window.location.href='https://github.com/jaanga/moving-manuals/'; 
 value='You are now in the home page view - Click this button to view the read me file and the source code' >
 
-[Jaanga]( http://jaanga.github.io ) » [Demo]( http://jaanga.github.io/demo/  ) »
+[Jaanga]( http://jaanga.github.io ) »
 
 [Moving Manuals Read Me]( index.html )
 ===
@@ -17,23 +17,23 @@ _The product assembly manuals of the future - now_
 -->
 
 [Further Considerations]( ./readme-reader.html#further-considerations.md )
-~ [Design Notes]( http://jaanga.github.io/demo/mm/readme-reader.html#design-notes.md ) 
-~ [Dev Notes]( http://jaanga.github.io/demo/mm/readme-reader.html#dev-notes.md ) 
+~ [Design Notes]( http://jaanga.github.io/moving-manuals/readme-reader.html#design-notes.md ) 
+~ [Dev Notes]( http://jaanga.github.io/moving-manuals/readme-reader.html#dev-notes.md ) 
 
 ***
 
 
 ##Overview
 
-### [Moving Manuals home page]( http://jaanga.github.io/demo/mm/index.html )
+### [Moving Manuals home page]( http://jaanga.github.io/moving-manuals/index.html )
 
-### [Screw and Round Nut - Demo - Full Screen - Latest ]( http://jaanga.github.io/demo/mm/screw-and-round-nut/index.html )
+### [Screw and Round Nut - Demo - Full Screen - Latest ]( http://jaanga.github.io/moving-manuals/screw-and-round-nut/index.html )
 
-### [Poang Rocking Chair - Demo - Full Screen - Latest ]( http://jaanga.github.io/demo/mm/poang-rocking/index.html )
+### [Poang Rocking Chair - Demo - Full Screen - Latest ]( http://jaanga.github.io/moving-manuals/poang-rocking/index.html )
 
-### [Kallax Wall Bracket Basic - Demo - Full Screen - Latest]( http://jaanga.github.io/demo/mm/kallax-wall-bracket/index.html )
+### [Kallax Wall Bracket Basic - Demo - Full Screen - Latest]( http://jaanga.github.io/moving-manuals/kallax-wall-bracket/index.html )
 
-### [Kallax NxN Basic - Demo - Full Screen - Latest ]( http://jaanga.github.io/demo/mm/kallax-nxn/index.html )
+### [Kallax NxN Basic - Demo - Full Screen - Latest ]( http://jaanga.github.io/moving-manuals/kallax-nxn/index.html )
 
 ### 
 _This is all still a work-in-progress. In particular: sounds and textures need much effort._
@@ -45,7 +45,7 @@ _2016-02-28_
 
 * All four demos checked, edited and verified to be FF and Edge compatible
 
-[Moving Manuals home page]( http://jaanga.github.io/demo/mm/index.html )
+[Moving Manuals home page]( http://jaanga.github.io/moving-manuals/index.html )
 
 * Initial mock-up
 
@@ -53,13 +53,13 @@ _2016-02-28_
 
 _2016-02-27_
 
-[Screw and Round Nut - Demo - Full Screen - Latest ]( http://jaanga.github.io/demo/mm/screw-and-round-nut/screw-and-round-nut-r2-@.html )
+[Screw and Round Nut - Demo - Full Screen - Latest ]( http://jaanga.github.io/moving-manuals/screw-and-round-nut/screw-and-round-nut-r2-@.html )
 
 * Assemble detail with cinema
 
 _2016-02-23_
 
-[Poang Rocking Chair - Demo - Full Screen - R4 ]( http://jaanga.github.io/demo/mm/poang-rocking/poang-rocking-r4-@.html )
+[Poang Rocking Chair - Demo - Full Screen - R4 ]( http://jaanga.github.io/moving-manuals/poang-rocking/poang-rocking-r4-@.html )
 
 * Adds object snap capability while editing/creating
 	* No more placing hardware by many trial end error attempts
@@ -79,7 +79,7 @@ _2016-02-23_
 
 _2016-02-20_
 
-[Poang Rocking Chair - Demo - Full Screen - R3.4 ]( http://jaanga.github.io/demo/mm/poang-rocking/poang-rocking-r3.html )
+[Poang Rocking Chair - Demo - Full Screen - R3.4 ]( http://jaanga.github.io/moving-manuals/poang-rocking/poang-rocking-r3.html )
 
 * Add toggle hardware scale
 * Works on Safari & iOS
@@ -88,7 +88,7 @@ _2016-02-20_
 
 _2016-02-08_
 
-[Poang Rocking Chair - Demo - Full Screen - R3 ]( http://jaanga.github.io/demo/mm/poang-rocking/poang-rocking-r3-00.html )
+[Poang Rocking Chair - Demo - Full Screen - R3 ]( http://jaanga.github.io/moving-manuals/poang-rocking/poang-rocking-r3-00.html )
 
 * Adds first pass at assembly tweening
 * Code clean-up
@@ -96,7 +96,7 @@ _2016-02-08_
 
 _2016-02-04_
 
-[Poang Rocking Chair - Demo - Full Screen - R2 ]( http://jaanga.github.io/demo/mm/poang-rocking/poang-rocking-r2.html )
+[Poang Rocking Chair - Demo - Full Screen - R2 ]( http://jaanga.github.io/moving-manuals/poang-rocking/poang-rocking-r2.html )
 
 * Basic Geometry is OK
 * Needs better colors and textures
@@ -106,7 +106,7 @@ _2016-02-04_
 
 _2016-01-29_
 
-[Kallax NxN Basic R7 - Demo - Full Screen ]( http://jaanga.github.io/demo/mm/kallax-nxn/kallax-nxn-basic-r7-@.html.html )
+[Kallax NxN Basic R7 - Demo - Full Screen ]( http://jaanga.github.io/moving-manuals/kallax-nxn/kallax-nxn-basic-r7-@.html.html )
 
 Note: touching items to toggle position on a tablet or phone is currently not working the way it should be. 
 Clicking with mouse is OK.
@@ -142,7 +142,7 @@ Wall Bracket
  
 _2016-01-22_
 
-[Kallax NxN Basic R5 - Demo - Full Screen ]( http://jaanga.github.io/demo/mm/kallax-nxn/kallax-nxn-basic-r5.html.html )
+[Kallax NxN Basic R5 - Demo - Full Screen ]( http://jaanga.github.io/moving-manuals/kallax-nxn/kallax-nxn-basic-r5.html.html )
 
 * Add hexKey
 * Add Screw 1004321 104322
@@ -158,7 +158,7 @@ _2016-01-21_
  
 _2016-01-19_
 
-[Kallax NxN Basic R4 - Demo - Full Screen ]( http://jaanga.github.io/demo/mm/kallax-nxn/kallax-nxn-basic-r4.html.html )
+[Kallax NxN Basic R4 - Demo - Full Screen ]( http://jaanga.github.io/moving-manuals/kallax-nxn/kallax-nxn-basic-r4.html.html )
 
 * Update with all new tweening looking good - just the play by play to finish up
 * But an oops on the Wall bracket needs to be fixed
@@ -166,7 +166,7 @@ _2016-01-19_
 
 _2016-01-17_
 
-[Kallax Wall Bracket Basic R12]( http://jaanga.github.io/demo/mm/kallax-wall-bracket/kallax-wall-bracket-basic-r12.html )
+[Kallax Wall Bracket Basic R12]( http://jaanga.github.io/moving-manuals/kallax-wall-bracket/kallax-wall-bracket-basic-r12.html )
 
 tweenjs-r1.js
 
@@ -178,7 +178,7 @@ tweenjs-r1.js
 
 _2016-01-14_
 
-[Kallax Wall Bracket Basic R11]( http://jaanga.github.io/demo/mm/kallax-wall-bracket/kallax-wall-bracket-basic-r11.html )
+[Kallax Wall Bracket Basic R11]( http://jaanga.github.io/moving-manuals/kallax-wall-bracket/kallax-wall-bracket-basic-r11.html )
 
 mm-tween-r1.js
 
@@ -191,7 +191,7 @@ mm-object-r1.js
 
 _2016-01-02 & 2016-01-01 & 2015-12-29_
 
-[Kallax Wall Bracket Basic R8]( http://jaanga.github.io/demo/mm/kallax-wall-bracket/kallax-wall-bracket-basic-r8.html )
+[Kallax Wall Bracket Basic R8]( http://jaanga.github.io/moving-manuals/kallax-wall-bracket/kallax-wall-bracket-basic-r8.html )
 
 * Phillips screwdriver tip starting to look OK (big learning curve here)
 * Ditto Phillips screw head
@@ -209,7 +209,7 @@ Coming soon?
 
 _2015-12-24_
 
-[Kallax Wall Bracket Basic R7]( http://jaanga.github.io/demo/mm/kallax-wall-bracket/kallax-wall-bracket-basic-r7.html )
+[Kallax Wall Bracket Basic R7]( http://jaanga.github.io/moving-manuals/kallax-wall-bracket/kallax-wall-bracket-basic-r7.html )
 
 * Add placards with part ID numbers
 * Add beginning of pencil
@@ -217,23 +217,23 @@ _2015-12-24_
 
 _2015-12-23_
 
-[Kallax Wall Bracket Basic R6]( http://jaanga.github.io/demo/mm/kallax-wall-bracket/kallax-wall-bracket-basic-r6.html )
+[Kallax Wall Bracket Basic R6]( http://jaanga.github.io/moving-manuals/kallax-wall-bracket/kallax-wall-bracket-basic-r6.html )
 
 * Re-engineered. Components now follow same principles as components in Kallax NxN. Should make life easier
 
-[Design Notes]( http://jaanga.github.io/demo/mm/index.html#design-notes.md )
+[Design Notes]( http://jaanga.github.io/moving-manuals/index.html#design-notes.md )
 
 * A start at identifying all the criteria that need satisfying in building an online assembly manual.
 
 _2015-12-18_
 
-[Kallax Wall Bracket Basic R5]( http://jaanga.github.io/demo/mm/kallax-wall-bracket/kallax-wall-bracket-basic-r5.html )
+[Kallax Wall Bracket Basic R5]( http://jaanga.github.io/moving-manuals/kallax-wall-bracket/kallax-wall-bracket-basic-r5.html )
 
 * Beginning to add animation/tweening
 
 _2015-12-12_
 
-[Kallax NxN Basic R2 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-nxn/kallax-nxn-basic-r2.html )
+[Kallax NxN Basic R2 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-nxn/kallax-nxn-basic-r2.html )
 
 * Fixed non-appearance of holes issues
 * Updated positions of pegs
@@ -243,7 +243,7 @@ _2015-12-12_
 * Coming soon: improved animation sequencing?
 
 
-* [Kallax Wall Bracket Basic R4]( http://jaanga.github.io/demo/mm/kallax-wall-bracket/kallax-wall-bracket-basic-r4.html )
+* [Kallax Wall Bracket Basic R4]( http://jaanga.github.io/moving-manuals/kallax-wall-bracket/kallax-wall-bracket-basic-r4.html )
 
 * Adds wood screws
 	* Includes shiny new draw helix routine
@@ -252,14 +252,14 @@ _2015-12-12_
 
 _2015-12-12_
 
-[Kallax Wall Bracket Basic R2]( http://jaanga.github.io/demo/mm/kallax-wall-bracket/kallax-wall-bracket-basic-r2.html )
+[Kallax Wall Bracket Basic R2]( http://jaanga.github.io/moving-manuals/kallax-wall-bracket/kallax-wall-bracket-basic-r2.html )
 
 * Adds screw mask part
 
 
 _2015-12-10_
 
-[Kallax NxN Basic R1 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-nxn/kallax-nxn-basic-r1.html )
+[Kallax NxN Basic R1 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-nxn/kallax-nxn-basic-r1.html )
 
 * Creates any Kallax with from 1 to 6 rows and and 1 to 7 columns
 * Creates the fixing holes be code
@@ -270,7 +270,7 @@ _2015-12-10_
  
 _2015-12-09_
 
-[Kallax 5x5 Basic R1 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-nxn/kallax-5x5-basic-r1.html )
+[Kallax 5x5 Basic R1 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-nxn/kallax-5x5-basic-r1.html )
 
 * Most code in standalone JavaScript file that may be used with all Kallax models
 	* Should soon be able to make any Kallax with 1 to n vertical and horizontal divisions 
@@ -281,41 +281,41 @@ _2015-12-09_
 
 _2015-12-08_
 
-[Kallax 4x1 Basic R1 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-4x1/kallax-4x1-basic-r1.html )
+[Kallax 4x1 Basic R1 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-4x1/kallax-4x1-basic-r1.html )
 
-[Kallax 4x4 Basic R4 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-4x4/kallax-4x4-basic-r4.html )
+[Kallax 4x4 Basic R4 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-4x4/kallax-4x4-basic-r4.html )
 
 _2015-12-06_
 
-[Kallax 4x4 Basic R3 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-4x4/r3/kallax-4x4-basic-r3.html )
+[Kallax 4x4 Basic R3 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-4x4/r3/kallax-4x4-basic-r3.html )
 
 _2015-12-02_
 
-[Kallax 4x4 Basic R2 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-4x4/kallax-4x4-basic-r2.html )
+[Kallax 4x4 Basic R2 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-4x4/kallax-4x4-basic-r2.html )
 
 _2015-12-02_
 
-[Kallax 4x4 Basic R1 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-4x4/kallax-4x4-basic-r1.html )
+[Kallax 4x4 Basic R1 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-4x4/kallax-4x4-basic-r1.html )
 
 
 _2015-12-01_
 
-[Kallax Wall Bracket Render R1]( http://jaanga.github.io/demo/mm/kallax-wall-bracket/kallax-wall-bracket-render-r1.html )
+[Kallax Wall Bracket Render R1]( http://jaanga.github.io/moving-manuals/kallax-wall-bracket/kallax-wall-bracket-render-r1.html )
 
 * Has reflections of the Swedish royal castle
 * Slider bar to control the height
 
-[Kallax Wall Bracket Basic R1]( http://jaanga.github.io/demo/mm/kallax-wall-bracket/kallax-wall-bracket-basic-r1.html )
+[Kallax Wall Bracket Basic R1]( http://jaanga.github.io/moving-manuals/kallax-wall-bracket/kallax-wall-bracket-basic-r1.html )
 
 * Small metal piece for fixing Kallax to wall
 
 _2015-11-29_
 
-### [Moving Materials Logo Play R1 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/mm-logo/mm-logo-play-r1.html )
+### [Moving Materials Logo Play R1 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/mm-logo/mm-logo-play-r1.html )
 
 * Play a step-by-step construction animation
 
-### [Kallax 2x2 Play R1 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-2x2/kallax-2x2-play-r1.html )
+### [Kallax 2x2 Play R1 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-2x2/kallax-2x2-play-r1.html )
 
 * Play a step-by-step construction animation
 * The order of the steps does not yet follow the Ikea assembly manner order
@@ -325,26 +325,26 @@ _There is a fun bug right now: Click play and rotate - then click on some of the
 
 _2015-11-28_
 
-### [Kallax 2x2 Basic R1 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-2x2/kallax-2x2-basic-r1.html )
+### [Kallax 2x2 Basic R1 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-2x2/kallax-2x2-basic-r1.html )
 
-### [Kallax 2x2 Opacity R1 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-2x2/kallax-2x2-opacity-r1.html )
+### [Kallax 2x2 Opacity R1 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-2x2/kallax-2x2-opacity-r1.html )
 
 * Gain X-ray vision
 
-### [Kallax 2x2 Text to Voice R1 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/kallax-2x2/kallax-2x2-text-to-voice-r1.html )
+### [Kallax 2x2 Text to Voice R1 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/kallax-2x2/kallax-2x2-text-to-voice-r1.html )
 
 * Let me tell you a story
 
 _2015-11-27_
 
-### [Moving Materials Logo Basic R1 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/mm-logo/mm-logo-basic-r1.html )
+### [Moving Materials Logo Basic R1 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/mm-logo/mm-logo-basic-r1.html )
 
-### [Moving Materials Logo Render R1 - Demo - Full Screen]( http://jaanga.github.io/demo/mm/mm-logo/mm-logo-render-r1.html )
+### [Moving Materials Logo Render R1 - Demo - Full Screen]( http://jaanga.github.io/moving-manuals/mm-logo/mm-logo-render-r1.html )
 
 ### Sample Web Page / Source Code
 
-<iframe class=ifr src=http://jaanga.github.io/cookbook-html/templates/code-edit-view/code-edit-view-r2.html#http://jaanga.github.io/demo/mm/mm-logo/mm-logo-basic-r1.html width=100% height=600px ></iframe>  
-###### _Moving Manuals Basic - Revision 1 - Code Edit View_ /  [Edit full screen]( http://jaanga.github.io/cookbook-html/templates/code-edit-view/code-edit-view-r2.html#http://jaanga.github.io/demo/mm/mm-logo/mm-logo-basic-r1.html )
+<iframe class=ifr src=http://jaanga.github.io/cookbook-html/templates/code-edit-view/code-edit-view-r2.html#http://jaanga.github.io/moving-manuals/mm-logo/mm-logo-basic-r1.html width=100% height=600px ></iframe>  
+###### _Moving Manuals Basic - Revision 1 - Code Edit View_ /  [Edit full screen]( http://jaanga.github.io/cookbook-html/templates/code-edit-view/code-edit-view-r2.html#http://jaanga.github.io/moving-manuals/mm-logo/mm-logo-basic-r1.html )
 
 
 ## Concept
