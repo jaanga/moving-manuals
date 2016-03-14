@@ -4,9 +4,9 @@ dev notes
 ===
 
 
+
+
 ## 2016-02-27 ~ 
-
-
 
 ## 2016-02-22
 
@@ -68,7 +68,7 @@ Need to work on
 
 2016-01-21
 
-Most technical aspects seem to be undercontrol
+Most technical aspects seem to be under control
 
 The creation of objects, their various locations, and their frame by frame tweening 
 

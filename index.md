@@ -238,7 +238,7 @@ Link: [GitHub Integrations]( https://github.com/integrations )
 
 ### Serious Security
 
-Using GitHun allows a small firm to piggyback on the expertise one one ofe the mst secure operations in the world today.
+Using GitHub allows a small organization to piggyback on the expertise one one of the most secure operations in the world today.
 
 Features include:
 
@@ -273,6 +273,8 @@ US $20K / SKU.
 No charge for free open source projects - expect production just as and when time is available.
 
 All of the above open to discussion.
+
+When do we start?
 
 ***
 
