@@ -208,7 +208,7 @@ Reminders
 
 			togglePlace( intersects[ 0 ].object );
 
-			if ( window.AudioContext ) playNote( 350 + 350 * Math.random(), audioContext.currentTime, 0.1 );
+			if ( audioContext ) playNote( 350 + 350 * Math.random(), audioContext.currentTime, 0.1 );
 
 		}
 
@@ -233,7 +233,7 @@ Reminders
 
 		}
 
-		if ( window.AudioContext ) playNote( 350 + 350 * Math.random(), audioContext.currentTime, 0.1 );
+		if ( audioContext ) playNote( 350 + 350 * Math.random(), audioContext.currentTime, 0.1 );
 
 	}
 
@@ -348,7 +348,7 @@ Reminders
 
 				tweenFrame();
 
-				if ( window.AudioContext ) playNote( 350 + 350 * Math.random(), audioContext.currentTime, 0.1 );
+				if ( audioContext ) playNote( 350 + 350 * Math.random(), audioContext.currentTime, 0.1 );
 
 			} else {
 
@@ -358,10 +358,10 @@ console.log( 'the end' );
 				indexFrame = 0;
 
 // Play a 'B' now --- Ta
-				if ( window.AudioContext ) playNote(493.883, audioContext.currentTime, 0.232 );
+				if ( audioContext ) playNote(493.883, audioContext.currentTime, 0.232 );
 
 // Play an 'E' just as the previous note finishes -- Da
-				if ( window.AudioContext ) playNote(659.255, audioContext.currentTime + 0.232, 0.464);
+				if ( audioContext ) playNote(659.255, audioContext.currentTime + 0.232, 0.464);
 
 			}
 
