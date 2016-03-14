@@ -181,7 +181,7 @@ And/or we can export our data in STL, DXF, JSON and other formats.
 Ownership of intellectual property remains with Moving Manuals authors unless otherwise agreed.
 
 
-Link: [MIT Licence]( http://opensource.org/licenses/MIT ). Other licenses upon agreement.
+Link: [MIT Licence]( http://opensource.org/licenses/MIT ). GPL3. You choose. Other licenses upon agreement.
 
 
 ## Designs and Code Hosted on GitHub 
@@ -268,13 +268,15 @@ Benefits of using a CDN include:
 
 Let's keep it simple. 
 
-US $20K / SKU.
+US $20K / SKU
 
-No charge for free open source projects - expect production just as and when time is available.
+No charge for free open source projects - just expect production as and when time is available.
 
 All of the above open to discussion.
 
 When do we start?
+
+&nbsp;
 
 ***
 
