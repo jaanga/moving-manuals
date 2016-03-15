@@ -4,16 +4,17 @@ value='You are now in the home page view - Click this button to view the read me
 
 [Moving Manuals]( index.html )
 ===
+_{Eventually the [Moving Manuals logo]( http://jaanga.github.io/moving-manuals/mm-logo/mm-logo-render-r1.html ) will be finished and be here}_
 
 ## _disrupting the process of assembling things_
 
-Common patterns or issues that occur when you put things together
+Here are ommon patterns or issues that occur when you put things together:
 
 * You put something together, find a mistake then have to start all over
 * You look at a picture a hundred times and still do not understand
 * You put something together and want to share the pleasure with others
 
-Moving Manuals is about making the process of putting things together easier, faster and more fun.
+Moving Manuals makes apps to help you put things together easier, faster and with more fun.
 
 The apps from Moving Manuals are:
 
@@ -90,13 +91,16 @@ lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non num
 How about a web page with the apps embedded? Like what you are seeing now?
 -->
 
-# Wait, there's More!
+# Wait, Wait, There's More!
+
+_This section describes the nature of a typical manual._
 
 ## Features
 
+* View the entire process from start to finish in 3D
 * Apps load very quickly
 	* Much faster and easier than PDF files
-* Can run online and offline
+* Apps run online and offline
 
 
 ## Benefits
@@ -118,19 +122,103 @@ How about a web page with the apps embedded? Like what you are seeing now?
 * Text to voice
 * Internationalization
  
-
-
-***
-
-# Process and Scope
-
-## The Manuals
+## Try Before You Buy
 
 The manuals are now apps - or at least working app prototypes. 
 And just like any app in the App store, the fastest easiest way to see if you like an app is to try it out yourself.
 
+## Buy What You Like
 
-## Communicate existence of Moving Manuals to customers
+If we make the difficult easy then more people can do it and some people can start tackling the really difficult
+
+
+
+***
+
+# Project Scope
+
+_This and the following sections describe the scope and process of creating and publishing Moving Manuals._
+
+## The Manuals
+
+_RichardO asked if we could define the scope and process of the project. Of course we can!
+Currently we are following these guile lines [Managing the Project Scope]( http://www.free-management-ebooks.com/dldebk/dlpm-scope.htm )._
+
+_Other Sources of inspiration include A Pattern Language and this web page._
+
+
+## Design and Quality Standards
+
+We seek work with organizations that set high standards for quality and even more for improving the quality of the standards themselves.
+
+The ease of understanding, the consistency between products, the elegance of the graphics has to match that of the exiting paper/PDF manuals.
+
+This entails establishing a good collaborative ongoing relationship with existing technical documentation personnel/
+
+Links of interest:
+
+* [S1000D]( http://public.s1000d.org/Pages/Home.aspx )
+* [ISO Standards]( http://www.iso.org/iso/home/standards.htm )
+* https://www.vitsoe.com/us/about/good-design
+* [Design and Quality Standards]( https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/313392/design_quality_standards.pdf )
+
+
+## Knowledge / Intellectual Property
+
+The interplay between copyright, licensing, digital rights management and intellectual property are intertwined and complex. 
+We seek to respect and honor all such rights and privileges.
+
+At the same time, we take pleasure in sharing our knowledge.
+We can teach and build tutorials so client designers how to make their own moving manuals.
+
+In preparing manuals, we import 3D data directly from CD programs. 
+And/or we can export our data in STL, DXF, JSON and other formats.
+
+Ownership of intellectual property remains with Moving Manuals authors unless otherwise agreed.
+Licensing is up to you.
+
+Link: 
+
+* [MIT Licence]( http://opensource.org/licenses/MIT ). 
+* [GNU General Public License, version 3]( http://www.gnu.org/licenses/gpl-3.0.en.html] )  
+
+You choose. Other licenses upon agreement.
+
+
+
+
+## Technical Standards
+
+Industrial designers are not usually good at programming.
+
+Programmers are usually not good at industrial design
+
+The Moving Manuals require both skills and - for greatest productivity  seeks people that can combine both skill sets.
+
+The code must be simple so that people who are mostly designers understand it.
+
+The design tools and methods need to be standardized so that people who are mostly programmers may build and edit the designs
+
+
+
+## FOSS
+
+The Moving Manuals project is built using free an open source software( [FOSS]( https://en.wikipedia.org/wiki/Free_and_open-source_software ) ).
+
+The project seeks to create FOSS content and tools. It does recognize that many projects simply cannot be FOSS and succeed.
+
+Given projects of sufficient complexity and motivation, anything can happen. ;-)
+
+
+<hr>
+
+# Project Processes
+
+_Putting together a Moving Manuals project requires consideration and development of a number of processes. 
+Here we begin to highlight some of the processes of immediate concern,_
+
+
+## Communicate Existence of Moving Manuals to Customers/Users
 
 A simple, fast easy way to inform people of the Moving Manuals is to place a link under the links to the PDF files in an online catalog
 
@@ -151,42 +239,37 @@ Adding links to existing web pages is easy
 
 
 
-## Design and Quality Standards
+## Software Development
 
-We seek work with organizations that set high standards for quality and even for improving the quality of the standards.
+The Moving Manuals project is built using [Three.js]( http://threejs.org ). 
+Three.js is a software library written in JavaScript that makes it easy to build WebGL scripts.
+WebGL is a library that enable JavaScript to communicate with the graphics processing unit (GPU ) built into every phone, tablet or computer
+WebGL enables apps in the browser to run much faster than apps that cannot use the GPU.
 
-The ease of understanding, the consistency between products, the elegance of the graphics has to match that of the exiting paper/PDF manuals.
+Moving Manuals app are designed to be:
 
-This will entail establishing a good working relationship with Ikea TechPubs
+*Extremely fast-loading
+	* Instead of loading large 3D databases objects are created on the fly
+* Easy and fast to create, edit and maintain
+	* Emphasis on multiple small scripts rather than few large scripts
+	* Most under 500 lines of code 
+* Few dependencies
+	* Apart from Three.js and its components, no other libraries are used
+	* Means less to learn
+* Code is seriously easy
+	* Designed to be read by designers not programmers
 
-Links:
-
-[Design and Quality Standards]( https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/313392/design_quality_standards.pdf )
-
-[S1000D]( http://public.s1000d.org/Pages/Home.aspx )
-
-[ISO Standards]( http://www.iso.org/iso/home/standards.htm )
-
-https://www.vitsoe.com/us/about/good-design
-
-
-
-## Knowledge / Intellectual Property
-
-We can teach and build tutorials so client designers how to make their own moving manuals
-
-In preparing manuals, we import 3D data directly from CD programs. 
-And/or we can export our data in STL, DXF, JSON and other formats.
-
-Ownership of intellectual property remains with Moving Manuals authors unless otherwise agreed.
-
-
-Link: [MIT Licence]( http://opensource.org/licenses/MIT ). GPL3. You choose. Other licenses upon agreement.
+* JavaScript is built into every web browser. It's easy to learn and if a designer knows any computer language, it's prboably JavaScript
+* WebGL was introduced in 2010 and is built into recent versions of every major browser
+* Three.js is one of the most popular libraries on GitHub
 
 
 ## Designs and Code Hosted on GitHub 
 
-All Moving Manuals design ad code are created, edited and hosted on [GitHub]( http://github/com ).
+![GitHub Traffic]( ./images/github-taffic-2016-03-14.jpg =800x500 )
+_First day on new site. Not much traffic yet. ;-)_
+
+All Moving Manuals designs and code are created, edited and hosted in the cloud on [GitHub]( http://github/com ).
 
 GitHub is the largest code host on the planet with over 31 million repositories. 
 Large or small, every repository comes with the same powerful tools. 
@@ -194,10 +277,8 @@ These tools are open to the community for public projects and secure for private
 There are many features and benefits to the use of GitHub as a digital repository for 3D designs.
 These are features simply not available via the traditional design firm and normal designer/client collaboration.
 
-The following sections cover the advantages of being on GitHub - and enabling small teams and bif teams to collaborate without skipping a beat 
+The following sections cover the advantages of being on GitHub - and enabling small teams and big teams to collaborate without skipping a beat.
 
-
-### Management
 
 ### Git Revision Control
 
@@ -252,17 +333,19 @@ Link: [GitHub Security]( https://help.github.com/articles/github-security/ )
 
 ### Access to Content Delivery Networks( CDN )
 
-Running on GitHub servers enables access by third-parties such as MaxCLI to deliver apps around the world in an inexpensive and timely fashion 
+Running on GitHub servers enables access by third-parties such as [MaxCDN]( https://maxcdn.com/ ) to deliver apps around the world in an inexpensive and timely fashion 
 
 Benefits of using a CDN include:
 
-* Instant Purge and Provisioning
-	* Make your new origin deployments seen immediately.
-* Real-time Reporting
-	* reporting and analytics engine gives meaning to your data so you can make informed decisions.
-* You can access your logs real-time through our API, our log viewer in the Control Panel or via MaxCLI—our command line interface.
-* Our real-time reporting system allows you to view, calculate and predict future behavior.
+* Instant purging and provisioning
+	* Make new origin deployments seen immediately
+* Real-time reporting
+	* Reporting and analytics engine gives meaning to data to help make informed decisions
+	* Access logs in real-time through an API through a control panel or command line interface
+	* Enables viewing, calculating and predicting future behavior
 
+
+***
 
 ## Pricing
 
@@ -272,9 +355,9 @@ US $20K / SKU
 
 No charge for free open source projects - just expect production as and when time is available.
 
-All of the above open to discussion.
+All of the above - open to discussion.
 
-When do we start?
+So when do we start?
 
 &nbsp;
 
