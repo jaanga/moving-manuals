@@ -4,11 +4,11 @@ value='You are now in the home page view - Click this button to view the read me
 
 [Moving Manuals]( index.html )
 ===
-_{Eventually the [Moving Manuals logo]( http://jaanga.github.io/moving-manuals/mm-logo/mm-logo-render-r1.html ) will be finished and be here}_
+_{ Eventually the [Moving Manuals logo]( http://jaanga.github.io/moving-manuals/mm-logo/mm-logo-render-r1.html ) will be finished and appear here ;-}_
 
 ## _disrupting the process of assembling things_
 
-Here are ommon patterns or issues that occur when you put things together:
+Here are common patterns or issues that occur when you put things together:
 
 * You put something together, find a mistake then have to start all over
 * You look at a picture a hundred times and still do not understand
@@ -180,7 +180,7 @@ Licensing is up to you.
 Link: 
 
 * [MIT Licence]( http://opensource.org/licenses/MIT ). 
-* [GNU General Public License, version 3]( http://www.gnu.org/licenses/gpl-3.0.en.html] )  
+* [GNU General Public License, version 3]( http://www.gnu.org/licenses/gpl-3.0.en.html )  
 
 You choose. Other licenses upon agreement.
 
@@ -358,6 +358,8 @@ No charge for free open source projects - just expect production as and when tim
 All of the above - open to discussion.
 
 So when do we start?
+
+Send a message to [Moving Manuals]( https://github.com/jaanga/moving-manuals/issues )...
 
 &nbsp;
 
