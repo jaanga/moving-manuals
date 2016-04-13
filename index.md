@@ -8,29 +8,33 @@ _{ Eventually the [Moving Manuals logo]( http://jaanga.github.io/moving-manuals/
 
 ## _disrupting the process of assembling things_
 
-Here are common patterns or issues that occur when you put things together:
+Here are common patterns or issues that occur when you assemble furniture:
 
-* You put something together, find a mistake then have to start all over
+* You put something together, find a mistake and so you have to start all over again
 * You look at a picture a hundred times and still do not understand
-* You put something together and want to share the pleasure with others
+* You put something together and want to share your pleasure with others
 
 Moving Manuals makes apps to help you put things together easier, faster and with more fun.
 
 The apps from Moving Manuals are:
 
 * Always available: Interactive apps that work on your phone, tablet or computer
-* Easy to follow: Designed to show the entire process in 3D 
-* A pleasure to work with: The cinematography, musical score and sets are produced for enjoyment
+* Easy to follow: Designed to show the process from start to finish in 3D 
+* A pleasure to work with: Cinematography, musical score and sets are produced for enjoyment
 
-Now please scroll down and play with our demos. 
 All of the following demos are based on popular items from the wonderful Ikea web site. 
 Please note that we have no connection with Ikea.
 You may also see further examples this effort for [WikiHouse]( http://wikihouse.github.io/viewer-experiments/ ) and [OpenDesk]( http://opendesk.github.io/design-playground/ ).
 
+Now please scroll down and play with our apps. 
+You can zoom, pan and rotate inside each demo.
+Or click the 'full screen' links for a more immersive experience.
+ 
 See also: [Read Me]( http://jaanga.github.io/moving-manuals/readme-reader.html )
 
 
-<iframe src='kallax-nxn/index.html'  ></iframe>
+
+<iframe src='kallax-nxn/index.html' ></iframe>
 # full screen demo: [notKallax NxN]( kallax-nxn/index.html )
 
 You may run the four apps here or - even better - click the title under the app to run it full scree.
@@ -50,16 +54,26 @@ Each of the apps supports the following:
 
 
 <iframe src='kallax-wall-bracket/index.html' ></iframe>
+
 # full screen demo: [Wall Bracket zoom-in]( kallax-wall-bracket/index.html )
-An assembly detail. Rendered with raw colors. Four shory videos rather than a long single video.
+
+One of the assembly detail. Rendered with raw colors. Four short videos rather than a long single video. 
+Click the buttons to watch the action.
 
 ### Things you can do
 
-* Use for fingers or mouse to look from under the shelf
-* Switch back abd forth between whole shelf assemble and detail assembly 
+* Use your fingers or mouse to look from under the shelf
+* Switch back and forth between whole shelf assemble and detail assembly 
+* Return to the main assembly script then come back to here
 
 <iframe src='poang-rocking/index.html' ></iframe>
+
 # full screen demo: [Poang Rocking Chair]( poang-rocking/index.html )
+
+What is this pile of things on the floor? Click om 'Toggle Assembly' and watch the magic happen!
+
+Where does each screw go? And how can I tell if I am using the correct one? 
+Click 'Toggle Hardware' to turn the tiny hardware pieces into giants!
 
 
 ### Things you can do
@@ -68,16 +82,15 @@ An assembly detail. Rendered with raw colors. Four shory videos rather than a lo
 
 
 
+
 <iframe src='screw-and-round-nut/index.html' ></iframe>
 # full screen demo: [Screw and Nut zoom-in]( screw-and-round-nut/index.html )
 
-An assembly detail - rendered in 'raw' colors.
+Again an assembly detail - rendered in 'raw' colors.
 
 ### Things you can do
 
-* Pause the assembly video by clicking the checkbox
-
-lorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
+* Pause the assembly video by clicking the 'Play Step-by-Step Assembly' checkbox
 
 
 ***
@@ -108,19 +121,6 @@ _This section describes the nature of a typical manual._
 * Always access to latest revisions
 * Faster updates
 
-## Road Map
-
-* Personalization
-* Returning to where you were on multiple devices
-* Sharing
-* Marketing and Sales input
-* Sounds and scoring
-* Renderers and shaders
-* Cinematography
-* User Experience
-* Disabled support
-* Text to voice
-* Internationalization
  
 ## Try Before You Buy
 
@@ -323,7 +323,7 @@ Using GitHub allows a small organization to piggyback on the expertise one one o
 
 Features include:
 
-* Team and Individual permission levels
+* Team and individual permission levels
 * Enabling and restricting access for third parties
 * Audit logs, two factor authentication
 * SSL, HTTPS, and SSH data transmission and two-factor authentication are core elements of security at GitHub
@@ -343,6 +343,41 @@ Benefits of using a CDN include:
 	* Reporting and analytics engine gives meaning to data to help make informed decisions
 	* Access logs in real-time through an API through a control panel or command line interface
 	* Enables viewing, calculating and predicting future behavior
+
+
+## Road Map
+
+This document just begins to cover the possibilities. Further revisions should more detail about the following:
+
+* Personalization
+* Returning to where you were on multiple devices
+* Sharing
+* Marketing and Sales input
+* Sounds and scoring
+* Renderers and shaders
+* Cinematography
+* User Experience
+* Disabled support
+* Text to voice
+* Internationalization
+
+It's also worth noting that the entire production is built in 3D.
+Therefore creating versions for virtual reality systems such as Oculus Rift or Google Cardboard 
+is just about as easy as flipping a few switches.
+
+
+## Prospective Production Team Members
+
+If this project get to a higher level, the these people will be asked to lead the production team:
+
+* Theo Armour ~ Coder/Designer ~ Program Manager for three releases of AuoCAd
+* Terry Green ~ User Experience ~ Designed the online check scanning app for Chase Bank
+* Rob Shulzberg ~ Sound Design ~ Former drummer for the band _Placebo_
+* Dylan Chapgier ~ Director of Photography ~ [IMDB credits]( http://www.imdb.com/name/nm2368109/ )
+* Jaume Sanchez ~ 3D Effects ~ [clicktorelease.com]( https://www.clicktorelease.com/ )
+* Mia Harlock ~ Copywriter ~ Lead copywriter for Levi Strauss
+
+The mission of the team would be to take the level of quality up to the standard of a high end video game 
 
 
 ***
