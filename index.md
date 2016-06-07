@@ -1,4 +1,5 @@
-﻿<span style=display:none; >[You are now in a GitHub source code view - click this link to view the home page]( http://jaanga.github.io/moving-manuals/index.html "View file as a web page." ) </span>
+﻿<span style=display:none; >[You are now in a GitHub source code view - click this link to view the home page]
+( http://jaanga.github.io/moving-manuals/index.html "View file as a web page." ) </span>
 <input type=button onclick=window.location.href='https://github.com/jaanga/moving-manuals/'; 
 value='You are now in the home page view - Click this button to view the read me file and the source code' >
 
@@ -368,7 +369,7 @@ is just about as easy as flipping a few switches.
 
 ## Prospective Production Team Members
 
-If this project get to a higher level, the these people will be asked to lead the production team:
+If this project gets to a higher level, these people will be asked to lead the production team:
 
 * Theo Armour ~ Coder/Designer ~ Program Manager for three releases of AuoCAd
 * Terry Green ~ User Experience ~ Designed the online check scanning app for Chase Bank
