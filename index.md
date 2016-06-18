@@ -367,7 +367,7 @@ Therefore creating versions for virtual reality systems such as Oculus Rift or G
 is just about as easy as flipping a few switches.
 
 
-## Prospective Production Team Members
+## Prospective Production Team Members <a href=#team ></a>
 
 If this project gets to a higher level, these people will be asked to lead the production team:
 
