@@ -132,8 +132,13 @@
 
 		pegs.push( mesh );
 
-		edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -789,7 +794,7 @@
 		var radiusHandle = 5;
 		var radiusShaft = 1;
 		var tipLength = 8;
-		var points = [ v2( 1, 0 ), v2( 1, 50 ), v2( radiusHandle, 50 ), v2( radiusHandle, 52), v2( 4, 52), v2( 4, 55 ), v2( radiusHandle, 55), 
+		var points = [ v2( 1, 0 ), v2( 1, 50 ), v2( radiusHandle, 50 ), v2( radiusHandle, 52), v2( 4, 52), v2( 4, 55 ), v2( radiusHandle, 55),
 			v2( radiusHandle, 80 ), v2( 0, 81 ) ];
 		var geometry = new THREE.LatheGeometry( points, 8 );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationX( pi05 ) );

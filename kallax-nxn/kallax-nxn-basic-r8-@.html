@@ -2,7 +2,7 @@
 <html lang=en >
 <head>
 <meta charset=utf-8 >
-<title>notKallax NxN R8</title>
+<title>notKallax NxN R8.1</title>
 <meta name=viewport content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui' >
 <meta name=description content='3D animation that shows you how to assemble a book shelf with 1 to 6 rows and 1 to 7 columns of cubby holes.' >
 <meta name=keywords content='WebGL,Three.js,Tween.js,JavaScript,GitHub,FOSS,3D,STEM,Jaanga,Moving Manuals' >
@@ -316,8 +316,13 @@
 		objects.push( mesh );
 		kallax.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 // four corners top
 
@@ -372,8 +377,13 @@
 		objects.push( mesh );
 		kallax.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 // four corners
 
@@ -435,8 +445,13 @@
 		dividers.push( mesh );
 		kallax.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		build_hole( mesh, widthUnit05, 0, depth05 - 1 * thicknessCase, 0, pi05, 0 );
 		build_hole( mesh, widthUnit05, 0, -depth05 + 1 * thicknessCase, 0, pi05, 0 );
@@ -473,8 +488,13 @@
 		shelves.push( mesh );
 		kallax.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 // four corners plus
 		build_hole( mesh, width05Case - thicknessCase, 0, depth05 - 1 * thicknessCase, 0, pi05, 0, 'pegHole' );
