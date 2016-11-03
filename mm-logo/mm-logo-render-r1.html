@@ -2,7 +2,7 @@
 <html lang=en >
 <head>
 <meta charset=utf-8 >
-<title>Moving Manuals Logo Render R1</title>
+<title>Moving Manuals Logo Render R1.1</title>
 <meta name=viewport content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui' >
 </head>
 <body>
@@ -52,7 +52,7 @@
 
 		menu = document.body.appendChild( document.createElement( 'div' ) );
 		menu.id = 'menu';
-		menu.innerHTML = 
+		menu.innerHTML =
 		`
 
 			<h2>
@@ -183,8 +183,13 @@
 		logo.add( mesh );
 		components.push( mesh );
 
-		edges = new THREE.EdgesHelper( mesh, 0xff0000 );
-		logo.add( edges );
+//		edges = new THREE.EdgesHelper( mesh, 0xff0000 );
+//		logo.add( edges );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: 0xff0000, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 

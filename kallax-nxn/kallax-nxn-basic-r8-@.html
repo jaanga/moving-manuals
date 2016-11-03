@@ -767,7 +767,8 @@
 // 2016-02-21 ~ http://jaanga.github.io/cookbook-threejs/templates/add-lights/template-threejs-lights-r2.html
 
 		renderer.shadowMap.enabled = true;
-		renderer.shadowMap.cullFace = THREE.CullFaceBack;
+//		renderer.shadowMap.cullFace = THREE.CullFaceBack;
+//		renderer.shadowMap.renderReverseSided = false.
 		renderer.gammaInput = true;
 		renderer.gammaOutput = true;
 		renderer.shadowMap.type = THREE.PCFSoftShadowMap;

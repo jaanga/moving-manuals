@@ -2,7 +2,7 @@
 <html lang=en >
 <head>
 <meta charset=utf-8 >
-<title>notPoang Rocker R4</title>
+<title>notPoang Rocker R4.1</title>
 <meta name=viewport content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui' >
 <meta name=description content='Not the Poang Rocking chair - but looks like it' >
 <meta name=keywords content='Moving Manuals,WebGL,Three.js,Tween.js,JavaScript,GitHub,FOSS,3D,STEM' >
@@ -432,8 +432,13 @@
 		objects.push( mesh );
 		poang.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -479,8 +484,13 @@
 		objects.push( mesh );
 		poang.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -518,8 +528,13 @@
 		objects.push( mesh );
 		poang.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -548,8 +563,13 @@
 		objects.push( mesh );
 		poang.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -600,8 +620,13 @@
 		objects.push( mesh );
 		poang.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -636,8 +661,13 @@
 		objects.push( mesh );
 		poang.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -677,8 +707,13 @@
 		objects.push( mesh );
 		poang.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -720,8 +755,13 @@
 		objects.push( mesh );
 		poang.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -766,8 +806,13 @@
 		objects.push( mesh );
 		poang.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -810,8 +855,13 @@
 		objects.push( mesh );
 		poang.add( mesh );
 
-		var edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		var edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -931,7 +981,7 @@
 		var mesh = new THREE.Mesh( geometryHole, materialHole );
 		mesh.name = 'hole';
 
-		mesh.position.copy( line.center() );
+		mesh.position.copy( line.getCenter() );
 		mesh.quaternion.setFromUnitVectors( axis, vector );
 
 		holes.push( mesh );
@@ -1049,8 +1099,13 @@
 		placards.push( placard );
 		mesh.add( placard );
 
-		edge = new THREE.EdgesHelper( mesh, edgesColor );
-		edges.add( edge );
+//		edge = new THREE.EdgesHelper( mesh, edgesColor );
+//		edges.add( edge );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
 
 		return mesh;
 
@@ -1325,7 +1380,7 @@
 // 2016-01-29
 
 		renderer.shadowMap.enabled = true;
-		renderer.shadowMap.cullFace = THREE.CullFaceBack;
+//		renderer.shadowMap.cullFace = THREE.CullFaceBack;
 		renderer.gammaInput = true;
 		renderer.gammaOutput = true;
 		renderer.shadowMap.type = THREE.PCFSoftShadowMap;
@@ -1365,9 +1420,14 @@
 		mesh.position.set( 50, -10, 0 );
 		scene.add( mesh );
 
-		helper = new THREE.EdgesHelper( mesh );
-		helper.material.color.setRGB( 1, 0, 1 );
-		scene.add( helper );
+//		helper = new THREE.EdgesHelper( mesh );
+//		helper.material.color.setRGB( 1, 0, 1 );
+
+		var geometry = new THREE.EdgesGeometry( mesh.geometry ); // or WireframeGeometry
+	    var material = new THREE.LineBasicMaterial( { color: edgesColor, linewidth: 5 } );
+	    var edge = new THREE.LineSegments( geometry, material );
+	    mesh.add( edge ); // add wireframe as a child of the parent mesh
+//		scene.add( helper );
 
 		var helper = new THREE.GridHelper( 100, 10 );
 		helper.position.set( 50, -7.5, 0 );
