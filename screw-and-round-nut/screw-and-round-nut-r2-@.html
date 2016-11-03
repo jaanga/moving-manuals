@@ -297,7 +297,8 @@
 		hole.absarc( 0, length05, radiusHole, 0, -2 * Math.PI );
 		shape.holes.push( hole );
 
-		geometry = shape.extrude( { amount: width, bevelEnabled: false, curveSegments: 8, steps: 1 } );
+//		geometry = shape.extrude( { amount: width, bevelEnabled: false, curveSegments: 8, steps: 1 } );
+		geometry = new THREE.ExtrudeGeometry( shape, { amount: width, bevelEnabled: false, curveSegments: 8, steps: 1 } );
 
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationY( -0.5 * Math.PI ) );
 		geometry.applyMatrix( new THREE.Matrix4().makeRotationZ( -0.5 * Math.PI ) );
@@ -332,7 +333,8 @@
 		hole.absarc( 0, length - 1.5 * height, radiusHole, 0, -2 * Math.PI );
 		shape.holes.push( hole );
 
-		geometry = shape.extrude( { amount: height, bevelEnabled: false, curveSegments: 8, steps: 1 } );
+//		geometry = shape.extrude( { amount: height, bevelEnabled: false, curveSegments: 8, steps: 1 } );
+		geometry = new THREE.ExtrudeGeometry( shape, { amount: height, bevelEnabled: false, curveSegments: 8, steps: 1 } );
 		geometry.applyMatrix( new THREE.Matrix4().makeTranslation( 0, 0, -height05 ) );
 
 		shape = new THREE.Shape();
@@ -342,7 +344,9 @@
 		hole.absarc( 0, 0, radiusHole, 0, -2 * Math.PI );
 		shape.holes.push( hole );
 
-		geo = shape.extrude( { amount: height, bevelEnabled: false, curveSegments: 8, steps: 1 } );
+//		geo = shape.extrude( { amount: height, bevelEnabled: false, curveSegments: 8, steps: 1 } );
+		geo = new THREE.ExtrudeGeometry( shape, { amount: height, bevelEnabled: false, curveSegments: 8, steps: 1 } );
+
 		geo.applyMatrix( new THREE.Matrix4().makeRotationX( -0.5 * Math.PI ) );
 		geometry.merge( geo );
 
@@ -418,7 +422,9 @@
 		hole.fromPoints( points );
 		shape.holes.push( hole );
 
-		geometry = shape.extrude( { amount: depthHex, bevelEnabled: false, curveSegments: curveSegments, steps: 1 } );
+//		geometry = shape.extrude( { amount: depthHex, bevelEnabled: false, curveSegments: curveSegments, steps: 1 } );
+		geometry = new THREE.ExtrudeGeometry( shape, { amount: depthHex, bevelEnabled: false, curveSegments: curveSegments, steps: 1 } );
+
 
 // body, thread & tip
 
@@ -485,7 +491,10 @@
 		shape = new THREE.Shape();
 		shape.absarc( 0, 0, radius, 0, 2 * Math.PI  );
 
-		geometry2 = shape.extrude( { amount: depthBodyTop, bevelEnabled: false, curveSegments: 30 } );
+//		geometry2 = shape.extrude( { amount: depthBodyTop, bevelEnabled: false, curveSegments: 30 } );
+		geometry2 = new THREE.ExtrudeGeometry( shape, { amount: depthBodyTop, bevelEnabled: false, curveSegments: 30, steps: 1 } );
+
+
 		geometry2.applyMatrix( new THREE.Matrix4().makeTranslation( 0, 0, depthSlot ) );
 		geometry.merge( geometry2 );
 
@@ -505,7 +514,10 @@
 		shape.absarc( 0, 0, radius, angle, Math.PI - angle  );
 		shape.lineTo( -x, y );
 
-		geometry4 = shape.extrude( { amount: 2 * radiusHole, bevelEnabled: false, curveSegments: 5 } );
+//		geometry4 = shape.extrude( { amount: 2 * radiusHole, bevelEnabled: false, curveSegments: 5 } );
+		geometry4 = new THREE.ExtrudeGeometry( shape, { amount: 2 * radiusHole, bevelEnabled: false, curveSegments: 5, steps: 1 } );
+
+
 		geometry4.applyMatrix( new THREE.Matrix4().makeTranslation( 0, 0, depthSlot + depthBodyTop ) );
 		geometry.merge( geometry4 );
 
@@ -517,7 +529,10 @@
 		shape = new THREE.Shape();
 		shape.absarc( 0, 0, radius, 0, 2 * Math.PI  );
 
-		geometry6 = shape.extrude( { amount: depthBodyBottom, bevelEnabled: false, curveSegments: 30 } );
+//		geometry6 = shape.extrude( { amount: depthBodyBottom, bevelEnabled: false, curveSegments: 30 } );
+		geometry6 = new THREE.ExtrudeGeometry( shape, { amount: depthBodyBottom, bevelEnabled: false, curveSegments: 30, steps: 1 } );
+
+
 		geometry6.applyMatrix( new THREE.Matrix4().makeTranslation( 0, 0, depthSlot + depthBodyTop + 2 * radiusHole ) );
 		geometry.merge( geometry6 );
 

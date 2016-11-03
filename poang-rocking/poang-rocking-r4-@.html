@@ -1151,7 +1151,8 @@
 		hole.fromPoints( points );
 		shape.holes.push( hole );
 
-		geometry = shape.extrude( { amount: depthHex, bevelEnabled: false, curveSegments: 30, steps: 3 } );
+//		geometry = shape.extrude( { amount: depthHex, bevelEnabled: false, curveSegments: 30, steps: 3 } );
+		geometry = new THREE.ExtrudeGeometry( shape, { amount: depthHex, bevelEnabled: false, curveSegments: 30, steps: 3 } );
 
 // body, thread & tip
 

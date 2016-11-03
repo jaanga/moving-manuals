@@ -217,7 +217,8 @@
 			shape.fromPoints( pts );
 			shape.holes.push( holePath );
 
-			var geometry = shape.extrude( { amount: thickness, bevelEnabled: false} );
+//			var geometry = shape.extrude( { amount: thickness, bevelEnabled: false} );
+			var geometry = new THREE.ExtrudeGeometry( shape, { amount: thickness, bevelEnabled: false}  );
 
 			return geometry;
 
@@ -248,7 +249,8 @@
 			var shape = new THREE.Shape();
 			shape.fromPoints( pts );
 
-			var geometry = shape.extrude( { amount: amount, bevelEnabled: false} );
+//			var geometry = shape.extrude( { amount: amount, bevelEnabled: false} );
+			var geometry = new THREE.ExtrudeGeometry( shape, { amount: thickness, bevelEnabled: false}  );
 
 			return geometry;
 
@@ -300,7 +302,9 @@
 
 			}
 
-			geo2 = shape.extrude( { amount: thickness, bevelEnabled: false} );
+//			geo2 = shape.extrude( { amount: thickness, bevelEnabled: false} );
+			geo2 = new THREE.ExtrudeGeometry( shape, { amount: thickness, bevelEnabled: false}  );
+
 			geometry.merge( geo2 );
 
 			return geometry;
@@ -378,7 +382,9 @@
 
 		shape.holes.push( holePath );
 
-		var geometry = shape.extrude( { amount: thickness, bevelEnabled: false } );
+//		var geometry = shape.extrude( { amount: thickness, bevelEnabled: false } );
+		geometry = new THREE.ExtrudeGeometry( shape, { amount: thickness, bevelEnabled: false}  );
+
 
 // bumps
 		shape = new THREE.Shape();
@@ -386,11 +392,15 @@
 		shape.absarc( startX + radius1, startY + rectHeight - 1 * radius1, radius3, 0, pi );
 		shape.absarc( startX + radius1, startY + 1 * radius1, radius3, pi, pi2 );
 
-		var geo2 = shape.extrude( { amount: thickness, bevelEnabled: false } );
+//		var geo2 = shape.extrude( { amount: thickness, bevelEnabled: false } );
+		var geo2 = new THREE.ExtrudeGeometry( shape, { amount: thickness, bevelEnabled: false}  );
+
 		geo2.applyMatrix( new THREE.Matrix4().makeTranslation( 0, 0, thickness ) );
 		geometry.merge( geo2 );
 
-		var geo3 = shape.extrude( { amount: thickness, bevelEnabled: false } );
+//		var geo3 = shape.extrude( { amount: thickness, bevelEnabled: false } );
+		var geo3 = new THREE.ExtrudeGeometry( shape, { amount: thickness, bevelEnabled: false}  );
+
 		geo3.applyMatrix( new THREE.Matrix4().makeTranslation( rectWidth - 2 * radius1, 0, thickness ) );
 		geometry.merge( geo3 );
 
@@ -400,11 +410,15 @@
 		shape.moveTo( startX, 0 );
 		shape.absarc( startX + 2 * thickness, 0, 2, 1.25 * pi, pi );
 
-		var geo4 = shape.extrude( { amount: rectWidth, bevelEnabled: false } );
+//		var geo4 = shape.extrude( { amount: rectWidth, bevelEnabled: false } );
+		var geo4 = new THREE.ExtrudeGeometry( shape, { amount: rectWidth, bevelEnabled: false}  );
+
 		geo4.applyMatrix( new THREE.Matrix4().makeRotationY( pi05) );
 		geometry.merge( geo4 );
 
-		var geo5 = shape.extrude( { amount: rectWidth, bevelEnabled: false } );
+//		var geo5 = shape.extrude( { amount: rectWidth, bevelEnabled: false } );
+		var geo5 = new THREE.ExtrudeGeometry( shape, { amount: rectWidth, bevelEnabled: false}  );
+
 		geo5.applyMatrix( new THREE.Matrix4().makeRotationZ( pi) );
 		geo5.applyMatrix( new THREE.Matrix4().makeRotationY( -pi05 ) );
 		geo5.applyMatrix( new THREE.Matrix4().makeTranslation( rectWidth, rectHeight, 0 ) );
@@ -660,7 +674,8 @@
 		holePath.absarc( holeTop.x, holeTop.y - 0.5 * heightBracket + 3 * radiusScrew, radiusScrew, 0, Math.PI * 2, true );
 		shape.holes.push( holePath );
 
-		geometry = shape.extrude( { amount: thickness, bevelEnabled: false} );
+//		geometry = shape.extrude( { amount: thickness, bevelEnabled: false} );
+		geometry = new THREE.ExtrudeGeometry( shape, { amount: thickness, bevelEnabled: false}  );
 
 		material = new THREE.MeshNormalMaterial( { side: 2 });
 
