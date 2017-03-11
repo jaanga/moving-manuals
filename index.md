@@ -38,7 +38,7 @@ See also: [Read Me]( http://jaanga.github.io/moving-manuals/readme-reader.html )
 <iframe src='kallax-nxn/index.html' ></iframe>
 # full screen demo: [notKallax NxN]( kallax-nxn/index.html )
 
-You may run the four apps here or - even better - click the title under the app to run it full scree.
+You may run the four apps here or - even better - click the title under the app to run it full screen.
 
 Each of the apps supports the following:
 
