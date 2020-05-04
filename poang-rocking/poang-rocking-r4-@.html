@@ -965,7 +965,7 @@
 
 	function build_hole3( obj, pt1, pt2, pt3, drawType ) {
 
-		var line = new THREE.Line3( pt1, pt2 );
+		line = new THREE.Line3( pt1, pt2 );
 		var axis = new THREE.Vector3( 0, 0, 1 );
 
 		var geometry = new THREE.Geometry();
@@ -981,7 +981,7 @@
 		var mesh = new THREE.Mesh( geometryHole, materialHole );
 		mesh.name = 'hole';
 
-		mesh.position.copy( line.getCenter() );
+		mesh.position.copy( line.center() );
 		mesh.quaternion.setFromUnitVectors( axis, vector );
 
 		holes.push( mesh );
